@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("./VRChat_2025-03-03_23-34-06.501_4k.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  color: #ddd;
+  text-shadow: #000 0 0 10px, #000 0 0 10px, #000 0 0 10px;
+}
+
+.blackcat-about-header {
+  padding: 16px 24px 4px 24px;
+}
+
+ul.blackcat-about-links {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  min-width: 500px;
+  max-width: 1500px;
+}
+
+ul.blackcat-about-links > li {
+  margin: 24px;
+  display: block;
+  padding: 0;
+}
+
+ul.blackcat-about-links > li > a,
+ul.blackcat-about-links > li.nolink {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  background-color: rgba(50,0,0,0.3);
+  border-radius: 16px;
+  padding: 4px 24px 24px 24px;
+  display: block;
+  backdrop-filter: blur(3px);
+}
+
+ul.blackcat-about-links > li > a > div,
+ul.blackcat-about-links > li.nolink > div {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+ul.blackcat-about-links > li.nolink > div > a {
+  color: inherit;
+  border-radius: 16px;
+  background-color: rgba(0,0,0,0.3);
+  text-decoration: none;
+  padding: 16px;
+  margin-top: 4px;
+  display: inline-block;
+}
