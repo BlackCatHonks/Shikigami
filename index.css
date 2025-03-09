@@ -1,9 +1,9 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-size: cover;
-  background-repeat: no-repeat;
   background: linear-gradient(#000, #333);
   background-image: url("./VRChat_2025-03-03_23-34-06.501_4k.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ddd;
   text-shadow: #000 0 0 10px, #000 0 0 10px, #000 0 0 10px;
 }
