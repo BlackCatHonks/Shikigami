@@ -3,22 +3,22 @@ html, body {
   height: 100%;
   background-color: #111;
   background: linear-gradient(#000, #333);
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(#000, #333);
   background-image: url("./VRChat_2025-03-03_23-34-06.501_4k.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0%;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ddd;
   text-shadow: #000 0 0 10px, #000 0 0 10px, #000 0 0 10px;
-  background-attachment: fixed;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @media (orientation: portrait) {
-  body {
+  html, body {
     background-position: 60% 0%;
   }
 }
@@ -67,4 +67,8 @@ ul.blackcat-about-links > li.nolink > div > a {
   padding: 16px;
   margin-top: 4px;
   display: inline-block;
+}
+
+footer div.spacing {
+  height: 16px;
 }
