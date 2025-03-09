@@ -12,6 +12,7 @@ body {
   background-position: 50% 0%;
   color: #ddd;
   text-shadow: #000 0 0 10px, #000 0 0 10px, #000 0 0 10px;
+  background-attachment: fixed;
 }
 
 @media (orientation: portrait) {
